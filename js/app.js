@@ -60,3 +60,7 @@ document.getElementById("phone-minus").addEventListener("click", function () {
   updateProductNumber("phone", 1219, false);
 });
 
+document.getElementById('cheekOut').addEventListener('click',function(){
+
+  window.location.href='index-pin.html'
+})
